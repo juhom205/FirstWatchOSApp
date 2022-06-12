@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="20037" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="AgC-eL-Hgc">
+    <device id="watch38"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBWatchKitPlugin" version="20006"/>
+    </dependencies>
+    <scenes>
+        <!--Interface Controller-->
+        <scene sceneID="aou-V4-d1y">
+            <objects>
+                <controller id="AgC-eL-Hgc" customClass="InterfaceController" customModule="FirstWatchOSApp_WatchKit_App" customModuleProvider="target">
+                    <items>
+                        <label width="130" height="30" alignment="left" text="Hello, watchOS" textAlignment="center" id="M1l-jT-N9Y"/>
+                        <separator alignment="left" id="gLj-BT-bBF"/>
+                        <dateLabel width="135" height="20" alignment="left" textAlignment="center" id="Dxq-Va-9wl">
+                            <dateFormatterStyle key="dateStyle" short="YES"/>
+                            <dateFormatterStyle key="timeStyle" short="YES"/>
+                        </dateLabel>
+                        <separator alignment="left" id="wj2-3V-HZO"/>
+                        <imageView width="136" height="85" alignment="left" image="leaf" contentMode="scaleAspectFit" animationDuration="2" id="8d4-Qd-ik0"/>
+                    </items>
+                </controller>
+            </objects>
+            <point key="canvasLocation" x="-16" y="-30.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="leaf" width="512" height="512"/>
+    </resources>
+</document>
